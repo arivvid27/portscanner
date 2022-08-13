@@ -38,7 +38,7 @@ def scan_port(ipaddress, port):
 
 
 targets = input(termcolor.colored("[*] Enter Targets To Scan (Split targets with comma) >>  " , 'blue'))
-ports = int(input(termcolor.colored("[*] Enter How Many Ports You Want To Scan >> ", 'blue')))
+ports = int(input(termcolor.colored("[*] Enter How Many Ports You Want To Scan (MAX is 65,535) >> ", 'blue')))
 cleanmode = input(termcolor.colored("[*] Would you like a clean output? (y/n) >> ", 'blue'))
 if ',' in targets:
 	print(termcolor.colored(("[#] Scanning Multiple Targets"), 'yellow'))
