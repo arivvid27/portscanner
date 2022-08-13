@@ -1,2 +1,4 @@
 # portscanner
-Scans ports to see if they are open or closed.
+This scans ports to see if the selected ports are opend or closed.
+
+The instructions are kinda self explanatory in the program.
